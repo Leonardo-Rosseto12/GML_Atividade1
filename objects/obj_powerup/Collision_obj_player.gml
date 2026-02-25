@@ -1,0 +1,1 @@
+metodo_colide_player()
