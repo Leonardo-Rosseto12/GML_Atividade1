@@ -29,7 +29,7 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"destino","filters":[
         "GMRoom",
-      ],"listItems":[],"multiselect":false,"name":"destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_template","path":"rooms/rm_template/rm_template.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_template","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_inicio","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
