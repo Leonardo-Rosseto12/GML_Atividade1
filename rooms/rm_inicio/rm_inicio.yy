@@ -20,6 +20,9 @@
     {"name":"inst_76074CA8","path":"rooms/rm_inicio/rm_inicio.yy",},
     {"name":"inst_2C8D7EC6","path":"rooms/rm_inicio/rm_inicio.yy",},
     {"name":"inst_7172E3A6","path":"rooms/rm_inicio/rm_inicio.yy",},
+    {"name":"inst_100F585D","path":"rooms/rm_inicio/rm_inicio.yy",},
+    {"name":"inst_366E5BDA","path":"rooms/rm_inicio/rm_inicio.yy",},
+    {"name":"inst_2D7C744D","path":"rooms/rm_inicio/rm_inicio.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -38,7 +41,7 @@
         {"$GMRInstance":"v4","%Name":"inst_90D1186","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_90D1186","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"velocidade_movimento","path":"objects/obj_player/obj_player.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"som_pulo","path":"objects/obj_player/obj_player.yy",},"resource":{"name":"snd_pulo","path":"sounds/snd_pulo/snd_pulo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_pulo",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":144.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":80.0,"y":160.0,},
       ],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Dados","depth":400,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Dados","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Level","depth":500,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
@@ -51,6 +54,15 @@
         {"$GMRInstance":"v4","%Name":"inst_7172E3A6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7172E3A6","objectId":{"name":"obj_muda_level","path":"objects/obj_muda_level/obj_muda_level.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_muda_level","path":"objects/obj_muda_level/obj_muda_level.yy",},"propertyId":{"name":"destino","path":"objects/obj_muda_level/obj_muda_level.yy",},"resource":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_level2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":1.5,"x":896.0,"y":64.0,},
+        {"$GMRInstance":"v4","%Name":"inst_100F585D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_100F585D","objectId":{"name":"obj_placa","path":"objects/obj_placa/obj_placa.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placa","path":"objects/obj_placa/obj_placa.yy",},"propertyId":{"name":"texto","path":"objects/obj_placa/obj_placa.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Use as [c_yellow]setas[/c] para se locomover.\"",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":88.0,"y":160.0,},
+        {"$GMRInstance":"v4","%Name":"inst_366E5BDA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_366E5BDA","objectId":{"name":"obj_placa","path":"objects/obj_placa/obj_placa.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placa","path":"objects/obj_placa/obj_placa.yy",},"propertyId":{"name":"texto","path":"objects/obj_placa/obj_placa.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"[c_red]Espaço[/c] para pular.\"",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":160.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2D7C744D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D7C744D","objectId":{"name":"obj_musica","path":"objects/obj_musica/obj_musica.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_musica","path":"objects/obj_musica/obj_musica.yy",},"propertyId":{"name":"musica_fundo","path":"objects/obj_musica/obj_musica.yy",},"resource":{"name":"snd_musica01","path":"sounds/snd_musica01/snd_musica01.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_musica01",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Level","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Decoracoes","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_29F537A6","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_29F537A6","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_janela_pequena","path":"sprites/spr_janela_pequena/spr_janela_pequena.yy",},"x":240.0,"y":24.0,},

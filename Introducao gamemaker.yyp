@@ -254,6 +254,8 @@
     {"id":{"name":"__shd_scribble_bake_shadow","path":"shaders/__shd_scribble_bake_shadow/__shd_scribble_bake_shadow.yy",},},
     {"id":{"name":"__shd_scribble","path":"shaders/__shd_scribble/__shd_scribble.yy",},},
     {"id":{"name":"sh_muda_cor","path":"shaders/sh_muda_cor/sh_muda_cor.yy",},},
+    {"id":{"name":"snd_musica01","path":"sounds/snd_musica01/snd_musica01.yy",},},
+    {"id":{"name":"snd_musica02","path":"sounds/snd_musica02/snd_musica02.yy",},},
     {"id":{"name":"snd_pulo","path":"sounds/snd_pulo/snd_pulo.yy",},},
     {"id":{"name":"scribble_fallback_bulletpoint","path":"sprites/scribble_fallback_bulletpoint/scribble_fallback_bulletpoint.yy",},},
     {"id":{"name":"spr_andaime","path":"sprites/spr_andaime/spr_andaime.yy",},},

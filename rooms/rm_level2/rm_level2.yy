@@ -28,6 +28,7 @@
     {"name":"inst_1575BBB7","path":"rooms/rm_level2/rm_level2.yy",},
     {"name":"inst_723C9171","path":"rooms/rm_level2/rm_level2.yy",},
     {"name":"inst_7F68C528","path":"rooms/rm_level2/rm_level2.yy",},
+    {"name":"inst_7D12027F","path":"rooms/rm_level2/rm_level2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -63,6 +64,9 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"som_pulo","path":"objects/obj_player/obj_player.yy",},"resource":{"name":"snd_pulo","path":"sounds/snd_pulo/snd_pulo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_pulo",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":56.0,"y":472.0,},
         {"$GMRInstance":"v4","%Name":"inst_7F68C528","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F68C528","objectId":{"name":"obj_plataforma_pequena","path":"objects/obj_plataforma_pequena/obj_plataforma_pequena.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":136.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7D12027F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D12027F","objectId":{"name":"obj_musica","path":"objects/obj_musica/obj_musica.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_musica","path":"objects/obj_musica/obj_musica.yy",},"propertyId":{"name":"musica_fundo","path":"objects/obj_musica/obj_musica.yy",},"resource":{"name":"snd_musica02","path":"sounds/snd_musica02/snd_musica02.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_musica02",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":320.0,},
       ],"layers":[],"name":"Level","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Decoracoes","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_7E625775","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_7E625775","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_janela_grande","path":"sprites/spr_janela_grande/spr_janela_grande.yy",},"x":112.0,"y":272.0,},
